@@ -143,7 +143,6 @@ apps/music/elements/music-search.js # line 138, col 3, Error - Unsafe assignment
 apps/music/elements/music-seek-bar.js # line 102, col 3, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 apps/music/elements/music-tab-bar.js # line 34, col 3, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 apps/music/elements/music-view-stack.js # line 84, col 3, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
-apps/music/views/home/view.js # line 75, col 5, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 apps/pdfjs/content/build/pdf.worker.js # line 0, col 0, Error - Maximum call stack size exceeded
 apps/privacy-panel/test/unit/ala/define_custom_location_test.js # line 26, col 7, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 apps/ringtones/js/tone_list.js # line 51, col 5, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
@@ -247,7 +246,8 @@ shared/js/homescreens/confirm_dialog_helper.js # line 32, col 7, Error - Unsafe 
 shared/js/html_imports.js # line 27, col 9, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 shared/js/html_imports.js # line 39, col 13, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 shared/js/l10n.js # line 1952, col 9, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
-shared/js/l20n.js # line 136, col 11, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
+shared/js/intl/l20n.js # line 43, col 11, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
+shared/js/intl/l20n-client.js # line 43, col 11, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 shared/js/lazy_loader.js # line 55, col 11, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 shared/js/smart-screen/shared_utils.js # line 29, col 7, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)
 shared/js/template.js # line 160, col 9, Error - Unsafe assignment to innerHTML (no-unsafe-innerhtml/no-unsafe-innerhtml)

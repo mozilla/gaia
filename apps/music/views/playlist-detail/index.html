@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="view.css">
   <!-- Deferred Scripts -->
   <script defer src="/components/bridge/client.js"></script>
-  <script defer src="/shared/js/l20n.js" type="application/javascript;version=1.8"></script>
+  <script defer src="/shared/js/intl/l20n.js" type="application/javascript;version=1.8"></script>
   <script defer src="/shared/js/intl_helper.js"></script>
   <script defer src="/components/dom-scheduler/lib/dom-scheduler.js"></script>
   <script defer src="/components/fast-list/fast-list.js"></script>
@@ -31,10 +31,10 @@
   <gaia-fast-list id="list">
     <template>
       <li>
-        <a href="/player?id=${name}" data-file-path="${name}">
+        <a href="/player" data-file-path="${name}">
           <em>${index}</em>
-          <h3>${metadata.title}</h3>
-          <p>${metadata.artist}</p>
+          <h3>${title}</h3>
+          <p>${artist}</p>
         </a>
       </li>
     </template>
